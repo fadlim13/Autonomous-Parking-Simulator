@@ -1,0 +1,3 @@
+This parking system uses two infrared sensors to detect the presence of cars and is equipped with an LCD that displays information on the number of available parking slots. The system also has a buzzer that will sound if the parking slot is full (number of slots 0).
+When the first infrared sensor detects an incoming car, the servo motor will rotate and open the entrance door. The number of available parking slots will be reduced and displayed on the LCD.
+Conversely, if the second infrared sensor detects an exiting car, the servo motor will rotate back to its original position to close the door, and the number of available slots will increase and be updated on the LCD.
