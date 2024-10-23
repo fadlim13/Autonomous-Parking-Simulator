@@ -1,5 +1,7 @@
 # Autonomous-Parking-Simulator
 Autonomous-Parking-Simulator use infrared sensors, motor servo, LCD, and buzzer.
+# Note
+This project was a group work, and I was in charge of both the hardware and software parts. For the hardware, I handled the overall operation of the system, including components and circuits. On the software side, I integrated the system using Tinkercad.
 # How it works: 
 This parking system uses two infrared sensors to detect the presence of cars and is equipped with an LCD that displays information on the number of available parking slots. The system also has a buzzer that will sound if the parking slot is full (number of slots 0). When the first infrared sensor detects an incoming car, the servo motor will rotate and open the entrance door. The number of available parking slots will be reduced and displayed on the LCD. Conversely, if the second infrared sensor detects an exiting car, the servo motor will rotate back to its original position to close the door, and the number of available slots will increase and be updated on the LCD.
 # Tinkercad Simulation and Circuit: 
